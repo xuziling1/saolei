@@ -17,7 +17,10 @@ namespace MySaoLei
         public  int mode = 0;
         public int isExitThread = 0;
         public static Form1 _instance;
-
+        /// <summary>
+        /// 是否为第一次左键点击
+        /// </summary>
+        public int fb = 0; 
         public object SystemBox { get; private set; }
 
         public Form1()
@@ -53,6 +56,8 @@ namespace MySaoLei
             this.Height = row * 30 + 150;
             //this.mineField1.Location.X = 20;
             this.mineField1.Init(0, row, bomb);
+            Form1._instance.fb = 1;
+
 
         }
         /// <summary>
@@ -103,6 +108,7 @@ namespace MySaoLei
             led2.Reset();
             //this.led2.Timekeeping();
             this.mineField1.Init(1,row,bomb);
+            Form1._instance.fb = 1;
         }
 
         private void 结束本局游戏ToolStripMenuItem_Click(object sender, EventArgs e)

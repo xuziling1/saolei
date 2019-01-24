@@ -37,3 +37,17 @@ B:\书\作业\Windows程序设计\finial_app\finial_app\MySaoLei\obj\Debug\MySao
 B:\书\作业\Windows程序设计\finial_app\finial_app\MySaoLei\obj\Debug\MySaoLei.exe
 B:\书\作业\Windows程序设计\finial_app\finial_app\MySaoLei\obj\Debug\MySaoLei.pdb
 B:\书\作业\Windows程序设计\finial_app\finial_app\MySaoLei\obj\Debug\MySaoLei.Form1.resources
+B:\saolei\MySaoLei\bin\Debug\MySaoLei.exe.config
+B:\saolei\MySaoLei\bin\Debug\MySaoLei.exe
+B:\saolei\MySaoLei\bin\Debug\MySaoLei.pdb
+B:\saolei\MySaoLei\obj\Debug\MySaoLei.csprojResolveAssemblyReference.cache
+B:\saolei\MySaoLei\obj\Debug\MySaoLei.Custom.resources
+B:\saolei\MySaoLei\obj\Debug\MySaoLei.Form1.resources
+B:\saolei\MySaoLei\obj\Debug\MySaoLei.LED.resources
+B:\saolei\MySaoLei\obj\Debug\MySaoLei.MineField.resources
+B:\saolei\MySaoLei\obj\Debug\MySaoLei.Number.resources
+B:\saolei\MySaoLei\obj\Debug\MySaoLei.Properties.Resources.resources
+B:\saolei\MySaoLei\obj\Debug\MySaoLei.csproj.GenerateResource.cache
+B:\saolei\MySaoLei\obj\Debug\MySaoLei.csproj.CoreCompileInputs.cache
+B:\saolei\MySaoLei\obj\Debug\MySaoLei.exe
+B:\saolei\MySaoLei\obj\Debug\MySaoLei.pdb

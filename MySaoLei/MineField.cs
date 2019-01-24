@@ -135,6 +135,7 @@ namespace MySaoLei
             }
             if (e.Button == MouseButtons.Left && pane.State == PaneState.Opened)
             {
+               
                 TimeSpan span = DateTime.Now - pane.lastTime;
                 pane.lastTime = DateTime.Now;
                 //MessageBox.Show(span.ToString());
@@ -171,6 +172,30 @@ namespace MySaoLei
             }
             if (e.Button == MouseButtons.Left && pane.State == PaneState.Closed)
             {
+                /*此段代码用来测试，无用
+                foreach (Pane pane1 in this.Controls)
+                {
+                    if (pane == pane1) MessageBox.Show("a");
+                }*/
+                if (Form1._instance.fb == 1)
+                {
+                    Form1._instance.fb = 0;
+                    if (pane.HasMine)
+                    {
+                        pane.HasMine = false;
+                        Random ran = new Random();
+                        int index;
+                        Pane pane2;
+                        do
+                        {
+                            index = ran.Next(0, this.Controls.Count);
+                            pane2 = (Pane)this.Controls[index];
+                        }
+                        while (pane2.HasMine == true || pane == pane2);
+                        pane2.HasMine = true;
+                    }
+
+                }
                 if (pane.HasMine)
                 {
                     Form1._instance.led1.Reset();
